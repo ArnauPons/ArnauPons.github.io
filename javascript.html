@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>
+        function  saluda(nombre, apellido)
+        
+        {
+            
+            alert('Hola que tal '+nombre+' '+apellido);
+            alert('Yo bien y tu??');
+            asignatura = "programación"; // aqui pones tu asignatura en tipo texto ""
+            edad =50; // tipo entero
+            Estudiante = true; // tipo booleano 
+            alert (' Estudio'+ asignatura);
+            edad = 65 - edad;
+        }
+        </script>
+      
+
 </head>
 <body>
-    <h2>pruebas javascript</h2>
+    <h2>pruebas javascript</h2> 
+
+    <button  type="button" onclick="saluda('Arnau','Pons Villalonga') ">Saludame</button>
+
     <button  type="button" onclick="document.getElementById('manolo').style.fontSize = '35px'">Cambiar tamaño</button>
     <button  type="button" onclick="document.getElementById('manolo').style.fontSize = '15px'">Cambiar tamaño menos</button>
 
