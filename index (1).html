@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+
+    <script>
+            function  Entrar()
+            
+            {
+                
+                usuario=document.getElementById("usuario").value;
+                contraseña=document.getElementById("contraseña").value;
+                if (usuario == "Arnau" && contraseña == "Payaso" )
+                {
+
+                    window.location.href = "inicio motos.html"
+                }
+                    
+                else {
+
+                    alert('no entras payaso')
+
+                    
+                }
+
+               
+            }
+            </script>
+            <link rel="stylesheet" href="login.css">
+</head>
+<body style="text-align: center; font-size: 20px;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="">
+        <label for="">Usuario</label>
+        <input type="text"  name="" id="usuario">  <br>
+        <br>
+        
+        <br>
+        <label for="">Contraseña</label>
+        <input type="text"  name="" id="contraseña"> <br>
+        <br>
+        <button type="button" onclick="Entrar();">Entrar </button>
+    </form>
+</body>
+</html>
